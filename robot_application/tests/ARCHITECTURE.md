@@ -2,7 +2,6 @@
 
 ## 模块图
 
-```mermaid
 graph TD
     A[外部事件源] -->|Event| B[RobotApplication]
     B -->|Effect| C[执行器/机器人动作]
